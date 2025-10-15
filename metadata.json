@@ -1,0 +1,5 @@
+{
+  "name": "Inertial Scroll Flower Gallery",
+  "description": "A visually appealing, swipeable horizontal gallery of flowers with smooth, inertia-based scrolling. Users can click-and-drag or use the mouse wheel to navigate the gallery.",
+  "requestFramePermissions": []
+}
