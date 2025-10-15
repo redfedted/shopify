@@ -33,12 +33,12 @@ jobs:
         run: |
           # Create dist directory if it doesn't exist
           mkdir -p dist
-          # Copy the main HTML file and assets
+          # Copy the main HTML file and JavaScript assets
           cp index.html dist/
-          cp index.tsx dist/
-          cp App.tsx dist/
+          cp index.js dist/
+          cp App.js dist/
           cp -r components dist/
-          cp constants.ts dist/
+          cp constants.js dist/
           cp types.ts dist/
           cp metadata.json dist/
           cp Tulip.png dist/
